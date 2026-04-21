@@ -1,0 +1,150 @@
+/* Dark theme for Restaurant Management System */
+
+.root {
+    -fx-base: #1e1e2e;
+    -fx-background: #1e1e2e;
+    -fx-control-inner-background: #313244;
+    -fx-accent: #89b4fa;
+    -fx-focus-color: #89b4fa;
+    -fx-faint-focus-color: transparent;
+    
+    /* Text colors */
+    -fx-text-base-color: #cdd6f4;
+    -fx-text-inner-color: #cdd6f4;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    -fx-background-color: #181825;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-pref-width: 220px;
+}
+
+.sidebar-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #89b4fa;
+    -fx-padding: 0 0 20 0;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bac2de;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 15 10 15;
+    -fx-cursor: hand;
+    -fx-background-radius: 8;
+}
+
+.nav-button:hover {
+    -fx-background-color: #313244;
+    -fx-text-fill: white;
+}
+
+.nav-button-active {
+    -fx-background-color: #89b4fa;
+    -fx-text-fill: #11111b;
+}
+
+/* Main Content Area */
+.content-area {
+    -fx-padding: 30px;
+    -fx-background-color: #1e1e2e;
+}
+
+.header-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 20 0;
+}
+
+/* Form Components */
+.label {
+    -fx-text-fill: #bac2de;
+    -fx-font-size: 13px;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: #313244;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #585b70;
+    -fx-highlight-fill: #89b4fa;
+    -fx-background-radius: 6;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 6;
+    -fx-padding: 8;
+}
+
+.text-field:focused {
+    -fx-border-color: #89b4fa;
+}
+
+/* Buttons */
+.button {
+    -fx-cursor: hand;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.btn-primary {
+    -fx-background-color: linear-gradient(to bottom right, #89b4fa, #74c7ec);
+    -fx-text-fill: #11111b;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to bottom right, #b4befe, #89b4fa);
+}
+
+.btn-danger {
+    -fx-background-color: #f38ba8;
+    -fx-text-fill: #11111b;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #eba0ac;
+}
+
+.btn-clear {
+    -fx-background-color: #45475a;
+    -fx-text-fill: white;
+}
+
+/* TableView */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8;
+    -fx-border-color: #313244;
+    -fx-border-radius: 8;
+}
+
+.table-view .column-header, .table-view .column-header-background .filler {
+    -fx-background-color: #313244;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #cdd6f4;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell {
+    -fx-background-color: #1e1e2e;
+    -fx-border-color: transparent transparent #313244 transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #181825;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #313244;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #45475a;
+}

@@ -1,0 +1,10 @@
+ui/MainApp.class
+ui/MenuView$1.class
+ui/RestaurantView.class
+models/Restaurant.class
+ui/MenuView.class
+config/DatabaseConfig.class
+models/MenuItem.class
+dao/MenuDAO.class
+dao/RestaurantDAO.class
+RestaurantApp.class
